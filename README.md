@@ -13,6 +13,7 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
     - Z: 42STH40-1684L300E
     - Extruder: need to double check this one
   - [Noctua NF-A6x25 FLX](https://noctua.at/en/nf-a6x25-flx) for electronics cooling.
+  - [Voron X/Y Hall Effect Endstop](https://fermio.xyz/fermio-labs-gmbh/voron-x-y-hall-effect-endstop/endstop)
   - X Gantry
     - Phaetus Dragon HF
     - PT1000 Termistor from E3D
