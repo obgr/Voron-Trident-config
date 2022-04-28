@@ -16,6 +16,7 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
   - [Voron X/Y Hall Effect Endstop](https://fermio.xyz/fermio-labs-gmbh/voron-x-y-hall-effect-endstop/endstop)
   - X Gantry
     - Phaetus Dragon HF
+    - [Bondtech CHT Nozzle](https://www.bondtech.se/product/bondtech-cht-coated-brass-nozzle/)
     - PT1000 Termistor from E3D
     - High Precision Heater Cartridge from E3D.
     - Clockwork v1
@@ -34,4 +35,4 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
 - [Klicky probe](https://github.com/jlas1/Klicky-Probe)
 
 ## Planned changes
-- Alternative extruder (Clockwork2, Galileo or LGX, who knows?)
+- [Bondtech LGX® Large Gears eXtruder](https://www.bondtech.se/product/lgx-large-gears-extruder/)
