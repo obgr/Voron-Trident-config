@@ -11,7 +11,6 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
   - Steppers from LDO
     - A/B: 2x 42STH40-2004MAC
     - Z: 3x 42STH40-1684L300E
-    - Extruder: [Bondtech LGX® Large Gears eXtruder](https://www.bondtech.se/product/lgx-large-gears-extruder/)
   - [Noctua NF-A6x25 FLX](https://noctua.at/en/nf-a6x25-flx) for electronics cooling.
   - [Voron X/Y Hall Effect Endstop](https://fermio.xyz/fermio-labs-gmbh/voron-x-y-hall-effect-endstop/endstop)
   - X Gantry
@@ -19,6 +18,7 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
     - [Bondtech CHT Nozzle](https://www.bondtech.se/product/bondtech-cht-coated-brass-nozzle/)
     - PT1000 Termistor from E3D
     - High Precision Heater Cartridge from E3D.
+    - Extruder: [Bondtech LGX® Large Gears eXtruder](https://www.bondtech.se/product/lgx-large-gears-extruder/)
     - Afterburner
     - Sunnon Fan
   - Bed
@@ -34,7 +34,8 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
 - [Klicky probe](https://github.com/jlas1/Klicky-Probe)
 
 ## Planned changes
-- Null
+- [Trident Spool Holders](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/elcrni/V2.4-Trident-Spool-Holders)
+- [Trident Inverted Electronics](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoganFraser/TridentInvertedElectronics)
 
 # How do i use a git repo as config dir?
 When you clone a repo, the name of the repository will most likely not be klipper_config.
