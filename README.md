@@ -34,7 +34,8 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
 - [Klicky probe](https://github.com/jlas1/Klicky-Probe)
 
 ## Planned changes
-- Null
+- [Trident Spool Holders](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/elcrni/V2.4-Trident-Spool-Holders)
+- [Trident Inverted Electronics](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoganFraser/TridentInvertedElectronics)
 
 # How do i use a git repo as config dir?
 When you clone a repo, the name of the repository will most likely not be klipper_config.
