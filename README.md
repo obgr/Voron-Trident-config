@@ -14,12 +14,10 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
   - [Noctua NF-A6x25 FLX](https://noctua.at/en/nf-a6x25-flx) for electronics cooling.
   - [Voron X/Y Hall Effect Endstop](https://fermio.xyz/fermio-labs-gmbh/voron-x-y-hall-effect-endstop/endstop)
   - X Gantry
-    - Phaetus Dragon HF
+    - E3d Revo Voron
     - [Bondtech CHT Nozzle](https://www.bondtech.se/product/bondtech-cht-coated-brass-nozzle/)
-    - PT1000 Termistor from E3D
-    - High Precision Heater Cartridge from E3D.
     - Extruder: [Bondtech LGX® Large Gears eXtruder](https://www.bondtech.se/product/lgx-large-gears-extruder/)
-    - Afterburner
+    - Stealthburner
     - Sunnon Fan
   - Bed
     - [VORON Build Plate, 250 x 250 mm from Fermio Labs](https://fermio.xyz/fermio-labs-gmbh/voron-build-plate-250-x-250-mm/)
@@ -37,7 +35,6 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
 - [Trident Spool Holders](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/elcrni/V2.4-Trident-Spool-Holders)
 - [Trident Inverted Electronics](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoganFraser/TridentInvertedElectronics)
 - LEDs
-- Stealthburner beta
 
 # How do i use a git repo as config dir?
 When you clone a repo, the name of the repository will most likely not be klipper_config.
