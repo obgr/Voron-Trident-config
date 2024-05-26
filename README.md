@@ -30,42 +30,29 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
 
 ## Mods
 - [Klicky probe](https://github.com/jlas1/Klicky-Probe)
+- [Trident Inverted Electronics](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/LoganFraser/TridentInvertedElectronics)
+- [Wobble X](https://github.com/MirageC79/Interfaces-for-WobbleX-integration/tree/main/Voron/Trident)
 
 ## Planned changes
 - [Trident Spool Holders](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/elcrni/V2.4-Trident-Spool-Holders)
-- [Trident Inverted Electronics](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/LoganFraser/TridentInvertedElectronics)
 - LEDs
 
 # How do i use a git repo as config dir?
-When you clone a repo, the name of the repository will most likely not be klipper_config.
-
-There is a way to link your config repo to be read from a standard configured klipper install.
-
-*This is done with <mark>Symbolic links</mark>*.
-
-## Preparation
 
 Generate and add an ssh key to github to upload config changes direct to github.
 
-## Symbolic link magic
 
 Clone a repo
+```bash
+cd printer_data
+rm -rf config/
+git clone git@github.com:USER/Voron-0.1-config.git config
 ```
-cd
-git clone git@github.com:USER/Voron-0.1-config.git
-```
-Remove klipper_config folder.
-```
-rm -rf klipper_config/
-```
-Create a symbolic link named klipper_config that points to your repository
-```
-ln -s Voron-0.1-config/ klipper_config
-```
+
 
 Klipper will now read config from your repository via the symbolic link.
 
 If you want, you can also create a link to your newly generated klipper.bin to always have it available in your config directory.
 ```
-ln -s ~/klipper/out/klipper.bin ~/klipper_config/klipper.bin
+ln -s ~/klipper/out/klipper.bin ~/printer_data/config/klipper.bin
 ```
