@@ -24,8 +24,7 @@ printer.cfg includes subconfig and submacros from config.d and macros.d respecti
 
 ## Software
 - [Klipper](https://github.com/Klipper3d/klipper)
-  - [KIAUH](https://github.com/th33xitus/kiauh)
-  - [Fluidd](https://github.com/fluidd-core/fluidd)
+- [Fluidd](https://github.com/fluidd-core/fluidd)
 
 ## Mods
 - [Klicky probe](https://github.com/jlas1/Klicky-Probe)
